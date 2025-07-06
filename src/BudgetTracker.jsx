@@ -386,6 +386,7 @@ function BudgetTracker({ user }) {
               <ExpenseMeta>
                 <span>{exp.date}</span>
                 <CategoryBadge>{exp.category}</CategoryBadge>
+                <CategoryBadge>{exp.payment_type}</CategoryBadge>
               </ExpenseMeta>
             </ExpenseItem>
           ))}
